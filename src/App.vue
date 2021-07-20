@@ -1,14 +1,14 @@
 <template lang="pug">
 #app.app
-  Header
+  NavBar
   Banner.mb-5
   Gallery
-  Footer
+  Footer.align-items-end.d-block
 
 </template>
 
 <script>
-import Header from './components/Header.vue'
+import NavBar from './components/Nav_bar.vue'
 import Banner from './components/Banner.vue'
 import Gallery from './components/Gallery.vue'
 import Footer from './components/Footer.vue'
@@ -16,7 +16,7 @@ import Footer from './components/Footer.vue'
 export default {
   name: 'App',
   components: {
-    Header,
+    NavBar,
     Banner, 
     Gallery, 
     Footer
@@ -24,6 +24,6 @@ export default {
 }
 </script>
 
-<style lang="sass" >
+<style lang="sass" scoped >
 
 </style>

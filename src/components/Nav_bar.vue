@@ -1,5 +1,5 @@
 <template lang="pug">
-.Header
+.NavBar
     .navbar-brand.px-5.d-flex.align-items-center.justify-content-center
         .header__icon
             a(href="#")
@@ -14,6 +14,9 @@
             li
                 a(href="#")
                     | Contáctanos
+            li
+                a(href="#")
+                    | Blog
             
                 
 
@@ -23,7 +26,7 @@
 
 <script>
 export default {
-    name: 'Header'
+    name: 'NavBar'
     
 }
 </script>

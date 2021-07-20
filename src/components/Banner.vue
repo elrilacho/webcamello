@@ -2,7 +2,7 @@
 .Banner
     .banner-principal.p-5.justify-content-center.d-flex
         .titulo-boton
-            h1.mb-5 ¡LE CAMELLAMOS A TU MARCA!
+            h1.mb-5.color-secundario ¡LE CAMELLAMOS A TU MARCA!
             button.btn.boton-principal.m-auto.d-block Ver proyectos
 </template>
 
@@ -13,18 +13,17 @@ name: 'Banner'
 </script>
 
 <style lang="sass" scoped>
+.Banner
 h1
     font-size: 60px
 h1, h2
-    color: white
     font-weight: bold
     margin: auto
     display: block
     text-align: center
 .banner-principal
-    background-image: url("../assets/banner-principal.jpg")
-    height: 500px
-    width: 100%
+    height: auto
+    width: auto
     background-size: cover
 .titulo-boton
     margin: auto
