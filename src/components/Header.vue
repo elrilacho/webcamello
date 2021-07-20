@@ -1,14 +1,19 @@
 <template lang="pug">
 .Header
-    .navbar.px-5.d-flex.align-items-center
-        .header__icon: img(src="../assets/logo.svg")
-        .ul
+    .navbar-brand.px-5.d-flex.align-items-center.justify-content-center
+        .header__icon
+            a(href="#")
+                img(src="../assets/logo.svg")
+        ul.ul.mb-0
             li
                 a(href="#")
-                    |Nuestros proyectos
+                    | ¿Quienes somos?
             li
                 a(href="#")
-                    | Contacto
+                    | Nuestros Clientes
+            li
+                a(href="#")
+                    | Contáctanos
             
                 
 
