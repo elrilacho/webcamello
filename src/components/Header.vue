@@ -1,9 +1,16 @@
 <template lang="pug">
 .Header
-    .navbar.px-5
-        .container-fluid
-            a.navbar-brand(href="")
-                | SAPOOO
+    .navbar.px-5.d-flex.align-items-center
+        .header__icon: img(src="../assets/logo.svg")
+        .ul
+            li
+                a(href="#")
+                    |Nuestros proyectos
+            li
+                a(href="#")
+                    | Contacto
+            
+                
 
 
 
@@ -17,7 +24,6 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.navbar 
-    background-color: gray
+
     
 </style>
