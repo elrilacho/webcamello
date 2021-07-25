@@ -1,29 +1,29 @@
 <template lang="pug">
 #app.app
-  NavBar
-  Banner.mb-5
-  Gallery
-  Footer.align-items-end.d-block
-
+  //- Preview
+  Header
+  Services.mb-5
+  Nosotros
 </template>
 
 <script>
-import NavBar from './components/Nav_bar.vue'
-import Banner from './components/Banner.vue'
-import Gallery from './components/Gallery.vue'
-import Footer from './components/Footer.vue'
+import Preview from '@/components/Preview.vue'
+import Header from '@/components/Header.vue'
+import Services from '@/components/Services.vue'
+import Nosotros from '@/components/Nosotros.vue'
 
 export default {
   name: 'App',
   components: {
-    NavBar,
-    Banner, 
-    Gallery, 
-    Footer
+    Preview,
+    Header,
+    Services,
+    Nosotros
   }
 }
 </script>
 
 <style lang="sass" scoped >
-
+.app
+  position: relative
 </style>
