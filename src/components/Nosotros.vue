@@ -1,6 +1,6 @@
 <template lang="pug">
 .Nosotros.bg-primario
-  .px-20.items-center.py-10.justify-center(class= "xl:flex sm:space-x-10")
+  .px-20.items-center.py-10.justify-center(class="xl:flex sm:space-x-10")(class="w-2/3").mx-auto
     img(src="@/assets/img4.svg").mb-5
     .text.color-secundario.text-center(class="xl:text-left")
       h2.text-2xl.uppercase.font-bold.mb-3 Quienes somos
